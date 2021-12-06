@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+    width: 65%;
+    height:500px;
+    background-color: rgb(58, 55, 55);
+    margin: 30px auto;
+    border-radius: 10px;
+}
+header h1{
+    color: white;
+    letter-spacing: 3px;
+    padding: 5px 0 15px 20px;
+    font-size: 22px;
+    border: 1px solid white;
+}
+#messages{
+    background-color:white;
+    width: 80%;
+    height: 300px;
+    margin: 20px auto;
+    padding: 8px;
+    /* scrollbar */
+    overflow: auto;
+    
+}
+.message{
+    list-style: none;
+    padding: 3px;
+    border-bottom: 1px solid olive;
+}
+.formulaire{
+    text-align: center;
+}
+.formulaire input[type=text],.formulaire input[type=submit]{
+    width: 45%;
+    height: 24px;
+    background-color: slategray;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 10px;
+    padding: 3px;
+    margin-bottom: 20px;
+}
+.formulaire input[type=submit]{
+    width: 90%;
+    height: 32px;
+
+}
+.formulaire input[type=submit]:hover{
+color: green;
+background-color: rgb(58, 55, 55);
+}
